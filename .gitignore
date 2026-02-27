@@ -1,0 +1,26 @@
+# Security
+.env
+
+# Database Dumps and Backups
+*.dump
+*.zip
+*.gz
+backups/
+archive/
+
+# Data Folders (Ignore content, keep folder if needed)
+raw_data/*
+staging/*
+streaming/*
+!*/.gitkeep
+
+# Airflow/Python Artifacts
+logs/
+__pycache__/
+*.pyc
+.airflow/
+unittests.db
+
+# OS Files
+.DS_Store
+Thumbs.db
